@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ramune Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="lightslider.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+     <!----Home---->
+    <section id="home">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="pict\logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="logout.php">Sign Out</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's Japanese carbonate soft drink<br>It's <span>Ramune</span></h2>
+                <p>Ramune(ラムネ) is available in a Codd-neck bottle, a heavy glass bottle
+                    whose mouth is sealed by a round marble (instead of a cap) thanks 
+                    to the pressure of the carbonated contents.
+                </p>
+                <a href="#about">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="pict\img 1.png" class="ramune">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="pict\ramune 1.png" onclick="imgSlider('pict\img 1.png');changeCircleColor('#017143')"></li>
+            <li><img src="pict\ramune 2.png" onclick="imgSlider('pict\img 2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="pict\ramune 3.png" onclick="imgSlider('pict\img 3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+             <li><a href="https://www.facebook.com/pages/category/Food---beverage/Genki-Ramune-113318453692235/"><img src="pict\facebook.png"></a></li>
+             <li><a href="#"><img src="pict\twitter.png"></a></li>
+             <li><a href="https://www.instagram.com/genkiramune/?hl=en"><img src="pict\instagram.png"></a></li>
+        </ul>
+    </section>
+     <!---About Us--->
+     <section class="about section " id="about">>
+            <div class="about__container bd-grid">           
+                <div>
+                    <h2 class="about__subtitle">Ramune</h2>
+                    <p class="about__text">
+                    Ramune was introduced in 1884 in Kobe by the British pharmacist Alexander Cameron Sim.
+                    Like Banta, an Indian lemon drink, ramune is available in a Codd-neck bottle, a heavy glass bottle whose mouth is sealed by a round marble (instead of a cap) thanks to the pressure of the carbonated contents.
+                    The name ramune is derived from a Japanese borrowing of the English word lemonade.
+                    Ramune is known for the distinctive design of its bottle, called Codd-neck bottles after their inventor, Hiram Codd. 
+                    They are made of glass and sealed with a marble; the codd head is held in place by the pressure of the carbonation in the drink. 
+                    To open the bottle, a plastic device used to push the marble inward is provided.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+     <!---Product--->
+     <section class="product section" id="product">
+          <div class="product_container">
+              <!--slider-->
+              <ul id="autoWidth" class="cs-hidden">
+                <!--1-->
+                    <li class="item-a">   
+                    <!--slider box-->
+                        <div class="box">
+                                <p class="minum">RAMUNE</p>
+                                <!--model-->
+                                <img src="pict\ramune 5.png" class="model">
+                                <!--detail-->
+                                <div class="details">
+                                    <!--logo drink-->
+                                    <img src="pict\logo.png" class="logo1" width="100px" style="height: auto;">
+                                    <p>Watermelon Flavor</p>
+                                </div>
+                        </div>
+                    </li>
+                 <!--2-->
+                 <li class="item-a">   
+                    <!--slider box-->
+                        <div class="box">
+                                <p class="minum">RAMUNE</p>
+                                <!--model-->
+                                <img src="pict\ramune 6.png" class="model">
+                                <!--detail-->
+                                <div class="details">
+                                    <!--logo drink-->
+                                    <img src="pict\logo.png" class="logo1" width="100px" style="height: auto;">
+                                    <p>Lychee Flavor</p>
+                                </div>
+                        </div>
+                    </li>
+                 <!--3-->
+                 <li class="item-a">   
+                    <!--slider box-->
+                        <div class="box">
+                                <p class="minum">RAMUNE</p>
+                                <!--model-->
+                                <img src="pict\ramune 4.png" class="model">
+                                <!--detail-->
+                                <div class="details">
+                                    <!--logo drink-->
+                                    <img src="pict\logo.png" class="logo1" width="100px" style="height: auto;">
+                                    <p>Yogurt Flavor</p>
+                                </div>
+                        </div>
+                    </li>
+                     <!--4-->
+                     <li class="item-a">   
+                    <!--slider box-->
+                        <div class="box">
+                                <p class="minum">RAMUNE</p>
+                                <!--model-->
+                                <img src="pict\ramune 1.png" class="model">
+                                <!--detail-->
+                                <div class="details">
+                                    <!--logo drink-->
+                                    <img src="pict\logo.png" class="logo1" width="100px" style="height: auto;">
+                                    <p>Blueberry Flavor</p>
+                                </div>
+                        </div>
+                    </li>
+                     <!--5-->
+                     <li class="item-a">   
+                    <!--slider box-->
+                        <div class="box">
+                                <p class="minum">RAMUNE</p>
+                                <!--model-->
+                                <img src="pict\ramune 3.png" class="model">
+                                <!--detail-->
+                                <div class="details">
+                                    <!--logo drink-->
+                                    <img src="pict\logo.png" class="logo1" width="100px" style="height: auto;">
+                                    <p>Melon Flavor</p>
+                                </div>
+                        </div>
+                    </li>
+                </ul>
+          </div>
+          </section>
+</main> 
+    <script type="text/javascript"> 
+        function imgSlider(anything){
+            document.querySelector('.ramune').scr = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
